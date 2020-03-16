@@ -5,9 +5,9 @@ Sound Forest VR (or "Ljudskogen VR") is a project for the DT2300 - Sound in Inte
 ## Prerequisites
 
 In order to build and run this project, you will need:
-* Unity Editor version 2019.2.6f1 64-bit. Other versions might also work, but this project was only built and tested using this specific version and therefore is not guaranteed to work with different versions of the editor.
+* Unity Editor version 2019.2.6f1 64-bit. You may convert the project to work in different versions, but this project was only built and tested using this specific version and therefore is not guaranteed to work with any other versions of the editor.
 * Steam and SteamVR. This project uses the SteamVR API for Unity.
-* A compatible HMD and controllers. This project has been tested on the Oculus Rift S with Touch controllers, as well as the Vive Pro with Vive Wand controllers. Bindings for the Index Knuckles are also available, but this project has not yet been tested with this set of controllers. Bindings for WMD controllers are planned for the future.
+* A compatible HMD and controllers. This project has been tested on the Oculus Rift S with Touch controllers as well as the Vive Pro with Vive Wand controllers, and should work with any analogous hardware (Oculus Rift CV1, Oculus Quest, HTC Vive). Bindings for the Index Knuckles are also available, but this project has not yet been tested with this set of controllers. Bindings for WMD controllers are planned for the future.
 
 ## Authors
 
