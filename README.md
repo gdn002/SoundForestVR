@@ -2,6 +2,8 @@
 
 Sound Forest VR (or "Ljudskogen VR") is a project for the DT2300 - Sound in Interaction course at KTH Royal Institute of Technology. This project is based on the installation of the same name, [Ljudskogen.](https://www.kth.se/mid/research/smc/projects/sound-forest-1.897050) In this Unity project, the user will be able to create, handle and interact with sound-emitting objects that respond to input. The goal of this project is to experiment with mapping of sounds to interactions in VR, as well as observe the emergent behaviors that possibly come up from use.
 
+Footage of the project can be seen [here.](https://vimeo.com/398870172)
+
 ## Prerequisites
 
 In order to build and run this project, you will need:
@@ -12,7 +14,7 @@ In order to build and run this project, you will need:
 ## Authors
 
 * **Guilherme Diegoli Neto** - *Scene and VR development* - [gdn002](https://github.com/gdn002)
-* **Carlo Barone** - *Sound design*
+* **Carlo Barone** - *Sound design* - [CarlozzBarry](https://github.com/CarlozzBarry)
 
 ## License
 
