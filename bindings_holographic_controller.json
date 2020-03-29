@@ -1,5 +1,7 @@
 {
-   "app_key" : "application.generated.unity.steamvr.exe",
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.soundforestvr.exe",
    "bindings" : {
       "/actions/buggy" : {
          "sources" : [
@@ -238,9 +240,112 @@
                "path" : "/user/hand/right/input/joystick"
             }
          ]
+      },
+      "/actions/soundforest" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "north" : {
+                     "output" : "/actions/soundforest/in/createmenu"
+                  },
+                  "south" : {
+                     "output" : "/actions/soundforest/in/colormenu"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "click"
+               },
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/soundforest/in/grabcylinder"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/soundforest/in/teleport"
+                  },
+                  "north" : {
+                     "output" : "/actions/soundforest/in/teleport"
+                  },
+                  "south" : {
+                     "output" : "/actions/soundforest/in/teleport"
+                  },
+                  "west" : {
+                     "output" : "/actions/soundforest/in/teleport"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/soundforest/in/pluckcylinder"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/soundforest/in/pluckcylinder"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "north" : {
+                     "output" : "/actions/soundforest/in/createmenu"
+                  },
+                  "south" : {
+                     "output" : "/actions/soundforest/in/colormenu"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "click"
+               },
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "held" : {
+                     "output" : "/actions/soundforest/in/grabcylinder"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/soundforest/in/snapturn"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
+            }
+         ]
       }
    },
+   "category" : "steamvr_input",
    "controller_type" : "holographic_controller",
    "description" : "",
-   "name" : "Default bindings for Windows Mixed Reality Controllers"
+   "name" : "WMR",
+   "options" : {},
+   "simulated_actions" : []
 }
